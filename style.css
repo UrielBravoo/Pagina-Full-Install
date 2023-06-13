@@ -1,0 +1,42 @@
+body{
+    background-image: url(fondo.jpg);
+    padding: 0;
+    margin: 0;
+
+}
+#titulo{
+    text-decoration: underline;
+    color: #51c153;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    text-align: center;
+    color: azure;
+}
+.carousel-inner{
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #51c153;
+    
+}
+
+#contactanos{
+    text-decoration: underline;
+    color: #51c153;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    text-decoration: underline;
+    color: #51c153;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h2{
+    font-size: calc(medium+5vw) ;
+}
+.row{
+    padding-bottom: 1%;
+    border-bottom: 1px solid #51c153;
+}
