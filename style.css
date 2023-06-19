@@ -2,13 +2,14 @@ body{
     background-image: url(fondo.jpg);
     padding: 0;
     margin: 0;
-
 }
+
 #titulo{
     text-decoration: underline;
     color: #51c153;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 .container{
     text-align: center;
@@ -17,7 +18,7 @@ body{
 .carousel-inner{
     border-radius: 10%;
     border-style: solid;
-    border-color: #51c153;
+    border-color:black ;
     
 }
 
@@ -39,4 +40,24 @@ h2{
 .row{
     padding-bottom: 1%;
     border-bottom: 1px solid #51c153;
+    padding-left: 20%;
+    padding-right: 20%;
+    
 }
+#myButton{
+    background-color: grey;
+    float: right;
+    width: 180px;
+    height: 30px;
+    
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.5s ease;  
+}
+#myButton:hover {
+    background: #ccc;
+    transform: scale(1.1);
+  }
+  #myButton:active {
+    transform: translateY(10px);
+  }
